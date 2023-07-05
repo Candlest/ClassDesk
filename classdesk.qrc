@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/tray">
+        <file alias="appicon">icons/AcUnitFilled.svg</file>
+        <file>icons/AssignmentTurnedInRound.svg</file>
+        <file>icons/BuildSharp.svg</file>
+        <file>icons/Calculator.svg</file>
+        <file>icons/CalendarSharp.svg</file>
+        <file alias="quit">icons/Exit.svg</file>
+        <file>icons/InformationCircle.svg</file>
+        <file>icons/LogoGithub.svg</file>
+        <file>icons/Qt_logo_neon_2022.svg</file>
+        <file>icons/Qt-5.15.2-green.svg</file>
+        <file>icons/ReloadCircle.svg</file>
+        <file>icons/Repeat.svg</file>
+        <file>icons/TrailSign.svg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Quick/VideoMode.qml</file>
+        <file>Quick/SildeMode.qml</file>
+        <file>Quick/Kit_Clock.qml</file>
+        <file>Quick/CircleProgressBar.qml</file>
+    </qresource>
+</RCC>

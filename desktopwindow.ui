@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DesktopWindow</class>
+ <widget class="QWidget" name="DesktopWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DesktopWindow</string>
+  </property>
+  <action name="action_quit">
+   <property name="icon">
+    <iconset resource="qicons.qrc">
+     <normaloff>:/tray/quit</normaloff>:/tray/quit</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_restart">
+   <property name="icon">
+    <iconset resource="qicons.qrc">
+     <normaloff>:/tray/icons/Repeat.svg</normaloff>:/tray/icons/Repeat.svg</iconset>
+   </property>
+   <property name="text">
+    <string>重载</string>
+   </property>
+  </action>
+  <action name="action_setting">
+   <property name="icon">
+    <iconset resource="qicons.qrc">
+     <normaloff>:/tray/icons/BuildSharp.svg</normaloff>:/tray/icons/BuildSharp.svg</iconset>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="icon">
+    <iconset resource="qicons.qrc">
+     <normaloff>:/tray/icons/InformationCircle.svg</normaloff>:/tray/icons/InformationCircle.svg</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="qicons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
